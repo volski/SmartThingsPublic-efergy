@@ -391,6 +391,10 @@ def getCurrency() {
         	unitName = "Euro Dollar (€)"
             state.centSym = "¢" 
         break
+	case '₪':
+		unitName = "ILS (₪)"
+	    state.centSym = "₪"
+	break
     	default:
         	unitName = "unknown"
             state.centSym = "¢"
